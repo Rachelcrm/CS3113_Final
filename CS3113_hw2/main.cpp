@@ -156,7 +156,7 @@ void initialise()
     g_levels[1] = g_levelA;
     g_levels[2] = g_levelB;
     g_levels[3] = g_levelC;
-    switch_to_scene(g_levels[3]);
+    switch_to_scene(g_levels[0]);
     
     Mix_OpenAudio(
         CD_QUAL_FREQ,
